@@ -1,6 +1,6 @@
  <html>
   <head>
-    <title>Image recognition Webapp</title>
+    <title>Face recognition Webapp</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -15,28 +15,24 @@
   <div class="container">
     
     <center>
-      <h3 class="btn btn-primary Heading">Image recognition Webapp</h3>
+      <h3 class="btn btn-primary Heading">Face recognition Webapp</h3>
       <br><br>
 
       <p style="font-size: 18.5px;">Model is trained to identify the following objects: </p>
       <b class="name_of_object">
         <hr>
-        Rubix Cube
+        Me
         <hr>
-        Pen
+        Mum
         <hr>
-        Phone
-        <hr>
-        Book
-        <hr>
-        PS4 controlar
-        <hr>
+        Dad
       </b>  
 
       <label>Webcam View - </label>
       <div id = "camera"></div>
       <br><br>
-      <div id = "Result"></div>
+      <div id = "result"></div>
+      <br>
       <button onclick="take_snapshot();" class="btn btn-info">Capture Image</button>
       <br><br>
       <button onclick="check();" class="btn btn-success">Identify Image</button>
